@@ -26,7 +26,7 @@ def get_product(id):
 
 @app.get("/buy_product/<id>/")
 def buy_product(id):
-    return render_template("index.html")
+    return "Ви успішно купили товар"
 
 
 @app.route("/signup/", methods=["GET", "POST"])
